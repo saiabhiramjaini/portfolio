@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -57,8 +57,20 @@ const items = [
 ];
 
 const Portfolio = () => {
+
+  useEffect(() => {
+    // Check if the page has already been reloaded
+    const hasReloaded = sessionStorage.getItem('hasReloaded');
+    if (!hasReloaded) {
+      // Set the flag to indicate the page has been reloaded
+      sessionStorage.setItem('hasReloaded', 'true');
+      // Reload the page
+      window.location.reload();
+    }
+  }, []);
+
   const ref = useRef();
-  const { scrollYProgress } = useScroll({ target: ref , layoutEffect: false});
+  const { scrollYProgress } = useScroll({ target: ref, layoutEffect: false });
 
   const x = useTransform(scrollYProgress, [0.2, 1], ["0%", "-100%"]);
 
@@ -92,7 +104,7 @@ const Portfolio = () => {
                       {item.title}
                     </h1>
                     <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
-                      <Image src={item.img} alt="" fill className="object-contain"/>
+                      <Image src={item.img} alt="" fill className="object-contain" />
                     </div>
                     <p className="w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                       {item.desc}
