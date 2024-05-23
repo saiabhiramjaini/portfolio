@@ -61,9 +61,11 @@ const Portfolio = () => {
   useEffect(() => {
     // Check if the page has already been reloaded
     const hasReloaded = sessionStorage.getItem('hasReloaded');
-    if (!hasReloaded) {
+    console.log(hasReloaded)
+    if (hasReloaded == 'false') {
       // Set the flag to indicate the page has been reloaded
       sessionStorage.setItem('hasReloaded', 'true');
+      console.log("2nd time "+hasReloaded)
       // Reload the page
       window.location.reload();
     }

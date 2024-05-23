@@ -6,6 +6,10 @@ import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 
 const Homepage = () => {
+  useEffect(() => {
+    // Reset the reload flag when the page is rendered
+    sessionStorage.setItem('hasReloaded', 'false');
+  }, []);
 
   const controls = useAnimation();
 

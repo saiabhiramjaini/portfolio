@@ -5,7 +5,11 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
 
 const AboutPage = () => {
-  
+  useEffect(() => {
+    // Reset the reload flag when the page is rendered
+    sessionStorage.setItem('hasReloaded', 'false');
+  }, []);
+
   const bioRef = useRef();
   const isBioRefInView = useInView(bioRef, { margin: "-100px" });
 
