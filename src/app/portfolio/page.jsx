@@ -81,7 +81,7 @@ const Portfolio = () => {
             dragConstraints={{ top: 0, bottom: 0 }}
             className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden"
           >
-            <motion.div style={{ x }} className="flex">
+            <motion.div style={{ x: x }} className="flex">
               {items.map((item) => (
                 <div
                   className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
