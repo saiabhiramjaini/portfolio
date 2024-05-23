@@ -2,10 +2,19 @@
 
 import LottieAnimation from "@/components/lottieAnimation";
 import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 
 const AboutPage = () => {
-  sessionStorage.removeItem('hasReloaded');
+  useEffect(() => {
+    // Check if the page has already been reloaded
+    const hasReloaded = sessionStorage.getItem('hasReloaded');
+    if (hasReloaded) {
+      // Set the flag to indicate the page has been reloaded
+      sessionStorage.setItem('hasReloaded', 'false');
+
+    }
+  }, []);
+
   const bioRef = useRef();
   const isBioRefInView = useInView(bioRef, { margin: "-100px" });
 

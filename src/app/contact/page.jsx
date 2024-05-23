@@ -1,13 +1,20 @@
 "use client"
 
 import {motion} from "framer-motion";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import emailjs from '@emailjs/browser'
 
 const ContactPage = ()=>{
 
-  sessionStorage.removeItem('hasReloaded');
-  
+  useEffect(() => {
+    // Check if the page has already been reloaded
+    const hasReloaded = sessionStorage.getItem('hasReloaded');
+    if (hasReloaded) {
+      // Set the flag to indicate the page has been reloaded
+      sessionStorage.setItem('hasReloaded', 'false');
+    }
+  }, []);
+
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState(false)
 
