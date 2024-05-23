@@ -66,7 +66,7 @@ Apart from my tech endeavors, I am a cricket enthusiast, balancing my love for t
               className="italic"
               >
 
-"Fueling innovation through code, I'm Jaini Sai Abhiram, a passionate developer on a mission to transform ideas into impactful solutions."
+Fueling innovation through code, I am Jaini Sai Abhiram, a passionate developer on a mission to transform ideas into impactful solutions.
               </motion.div>
               </div>
             </div>
