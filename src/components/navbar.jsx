@@ -88,20 +88,25 @@ export const NavBar = ()=>{
  
             <div className='hidden md:flex gap-4 w=1/3'>
                 {/* GITHUB */}
-                <Link href='#'>
+                <Link href='https://github.com/saiabhiramjaini'>
                     <img src="./github.png" width={24} height={24} alt=''/>
                 </Link>
                 {/* LINKEDIN */}
-                <Link href='#'>
+                <Link href='https://www.linkedin.com/in/sai-abhiram-jaini/'>
                     <img src="./linkedin.png" width={24} height={24} alt=''/>
                 </Link>
                 {/* TWITTER */}
-                <Link href='#'>
+                <Link href='https://x.com/Abhiram2k03'>
                     <img src="./x.png" width={24} height={24} alt=''/>
                 </Link>
-                
+
+                {/* DISCORD */}
+                <Link href='https://discord.com/users/abhiram2k03'>
+                    <img src="./discord.png" width={24} height={24} alt=''/>
+                </Link>
+
                 {/* INSTAGRAM */}
-                <Link href='#'>
+                <Link href='https://www.instagram.com/abhiram2k03/'>
                     <img src="./instagram.png" width={24} height={24} alt=''/>
                 </Link>
                 

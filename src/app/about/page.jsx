@@ -47,10 +47,16 @@ const AboutPage = () => {
               animate={isBioRefInView ? { x: 0 } : {}}
               transition={{ delay: 0.4 }}
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
-                nesciunt cumque amet iusto corrupti temporibus quibusdam qui
-                minus. Accusantium recusandae sunt dolor ea temporibus in
-                nesciunt placeat accusamus sed beatae.
+
+Hi 👋, my name is Jaini Sai Abhiram, an aspiring software developer with a passion for turning ideas into reality through code. Currently based in Hyderabad, India, I am deeply immersed in the world of technology, consistently pushing my boundaries to learn and grow.
+
+I am pursuing a Bachelor of Engineering in Computer Science at Keshav Memorial Engineering College, affiliated with Osmania University.
+
+Beyond academics, I am actively involved in various tech projects and competitions. I was a finalist in the Smart India Hackathon 2023, where I developed a waste upcycling project using Flutter and Firebase, contributing to sustainable development. Additionally, I have attended the Innovation Design and Entrepreneurship (IDE) Bootcamp in 2024, further honing my skills and entrepreneurial spirit.
+
+I am proficient in FullStack development and constantly expanding my expertise in technologies such as Flutter, Machine Learning, Deep Learning, and DevOps. I am always open to collaboration on exciting tech projects that challenge me and drive innovation.
+
+Apart from my tech endeavors, I am a cricket enthusiast, balancing my love for the game with my coding pursuits. 
               </motion.p>
               {/* BIOGRAPHY QUOTE */}
               <motion.div 
@@ -59,7 +65,8 @@ const AboutPage = () => {
               transition={{ delay: 0.6 }}
               className="italic"
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+
+"Fueling innovation through code, I'm Jaini Sai Abhiram, a passionate developer on a mission to transform ideas into impactful solutions."
               </motion.div>
               </div>
             </div>
@@ -86,31 +93,73 @@ const AboutPage = () => {
                   className="flex gap-4 flex-wrap"
                 >
                   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                    JAVASCRIPT
+                    Java
                   </div>
                   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                    JAVASCRIPT
+                    C
                   </div>
                   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                    JAVASCRIPT
+                    C++
                   </div>
                   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                    JAVASCRIPT
+                    Python
                   </div>
                   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                    JAVASCRIPT
+                    JavaScript
                   </div>
                   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                    JAVASCRIPT
+                    TypeScript
                   </div>
                   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                    JAVASCRIPT
+                    Dart
                   </div>
                   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                    JAVASCRIPT
+                    HTML
                   </div>
                   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                    JAVASCRIPT
+                    CSS
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    Bootstrap
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    TailwindCSS
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    ReactJS
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    NextJS
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    NodeJS
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    ExpressJS
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    MongoDB
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    PostgrSQL
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    MySQL
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    Prisma
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    Flutter
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    Postman
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    Git
+                  </div>
+                  <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                    GitHub
                   </div>
                 </motion.div>
                 {/* SKILL SCROLL SVG */}
@@ -143,19 +192,19 @@ const AboutPage = () => {
                   <div className="w-1/3">
                     {/* JOB TITLE */}
                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">
-                      EXPERIENCE TITLE
+                      SMART INDIA HACKATHON - 2023
                     </div>
                     {/* JOB DESCRIPTION */}
                     <div className="p-3 text-sm italic ">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Achieved finalist status in the SIH-2023 (36 Hour Hackathon) conducted by the Government of India by building a waste upcycling project using the Flutter and Firebase.
                     </div>
                     {/* JOB DURATION */}
                     <div className="p-3 text-red-400 text-sm font-semibold">
-                      2024-present
+                      Dec-2023
                     </div>
                     {/* COMPANY NAME */}
                     <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                      apple
+                      SIH
                     </div>
                   </div>
 
@@ -196,62 +245,24 @@ const AboutPage = () => {
                 <div className="w-1/3">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">
-                    EXPERIENCE TITLE
+                  IDE Bootcamp - 2024
                   </div>
                   {/* JOB DESCRIPTION */}
                   <div className="p-3 text-sm italic ">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Attended the Innovation Design and Entrepreneurship (IDE) Bootcamp (Phase III), enhancing skills in design thinking and entrepreneurship.
                   </div>
                   {/* JOB DURATION */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024-present
+                    29th-April-2024 to 3rd-May-2024
                   </div>
                   {/* COMPANY NAME */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    apple
+                    IDE Bootcamp
                   </div>
                 </div>
               </motion.div>
 
-              {/* 3. EXPERIENCE LIST ITEM */}
-              <motion.div
-                initial={{ x: "-1000px" }}
-                animate={isExperienceRefInView ? { x: 0 } : {}}
-                transition={{ delay: 0.8 }}
-                className="flex justify-between h-48"
-              >
-                {/* LEFT */}
-                <div className="w-1/3">
-                  {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">
-                    EXPERIENCE TITLE
-                  </div>
-                  {/* JOB DESCRIPTION */}
-                  <div className="p-3 text-sm italic ">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  </div>
-                  {/* JOB DURATION */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024-present
-                  </div>
-                  {/* COMPANY NAME */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    apple
-                  </div>
-                </div>
-
-                {/* CENTER */}
-                <div className="w-1/6">
-                  {/* LINE */}
-                  <div className="w-1 h-full bg-gray-600 rounded relative">
-                    {/* LINE CIRCLE */}
-                    <div className="absolute w-5 h-5 rounded-full bg-white -left-2 ring-4 ring-red-400"></div>
-                  </div>
-                </div>
-
-                {/* RIGHT */}
-                <div className="w-1/3"></div>
-              </motion.div>
+              
             </div>
           </div>
 

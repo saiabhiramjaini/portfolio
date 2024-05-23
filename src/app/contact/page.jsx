@@ -18,9 +18,24 @@ const ContactPage = ()=>{
     setError(false)
     setSuccess(false)
 
+    // emailjs
+    //   .sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, {
+    //     publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
+    //   })
+    //   .then(
+    //     () => {
+    //       setSuccess(true)
+    //       form.current.reset()
+    //     },
+    //     (error) => {
+    //       setError(true)
+    //       form.current.reset()
+    //     },
+    //   );
+
     emailjs
-      .sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, {
-        publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
+      .sendForm("service_as2j4iy", "template_0ni72t7", form.current, {
+        publicKey: "x1ReWsC-fMN1RL3qT",
       })
       .then(
         () => {
