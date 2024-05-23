@@ -8,7 +8,7 @@ const Homepage = () => {
   return (
     <>
     <motion.div 
-    className="h-full" 
+    className="h-full overflow-auto" 
     initial= {{y:'-200vh'}}
     animate={{y:'0%'}}
     transition={{duration: 1}}
@@ -21,7 +21,7 @@ const Homepage = () => {
       {/* TEXT CONTAINER */}
       <div className="h-1/2  lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
         {/* TITLE */}
-        <h1 className="text-4xl md:text-6xl font-bold ">Crafting Digital Experiences, Crafting Tomorrow.</h1>
+        <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold ">Crafting Digital Experiences, Crafting Tomorrow.</h1>
         {/* DESC */}
         <p className="md:text-xl">
           Welcome to my digital canvas, where innovation and creativity

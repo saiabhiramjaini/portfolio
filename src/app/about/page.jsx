@@ -47,16 +47,10 @@ const AboutPage = () => {
               animate={isBioRefInView ? { x: 0 } : {}}
               transition={{ delay: 0.4 }}
               >
-
-Hi 👋, my name is Jaini Sai Abhiram, an aspiring software developer with a passion for turning ideas into reality through code. Currently based in Hyderabad, India, I am deeply immersed in the world of technology, consistently pushing my boundaries to learn and grow.
-
-I am pursuing a Bachelor of Engineering in Computer Science at Keshav Memorial Engineering College, affiliated with Osmania University.
-
-Beyond academics, I am actively involved in various tech projects and competitions. I was a finalist in the Smart India Hackathon 2023, where I developed a waste upcycling project using Flutter and Firebase, contributing to sustainable development. Additionally, I have attended the Innovation Design and Entrepreneurship (IDE) Bootcamp in 2024, further honing my skills and entrepreneurial spirit.
-
-I am proficient in FullStack development and constantly expanding my expertise in technologies such as Flutter, Machine Learning, Deep Learning, and DevOps. I am always open to collaboration on exciting tech projects that challenge me and drive innovation.
-
-Apart from my tech endeavors, I am a cricket enthusiast, balancing my love for the game with my coding pursuits. 
+                Hi 👋, my name is Jaini Sai Abhiram, an aspiring software developer with a passion for turning ideas into reality through code. Currently based in Hyderabad, India, I am deeply immersed in the world of technology, consistently pushing my boundaries to learn and grow. I am pursuing a Bachelor of Engineering in Computer Science at Keshav Memorial Engineering College, affiliated with Osmania University.
+                Beyond academics, I am actively involved in various tech projects and competitions. I was a finalist in the Smart India Hackathon 2023, where I developed a waste upcycling project using Flutter and Firebase, contributing to sustainable development. Additionally, I have attended the Innovation Design and Entrepreneurship (IDE) Bootcamp in 2024, further honing my skills and entrepreneurial spirit.
+                I am proficient in FullStack development and constantly expanding my expertise in technologies such as Flutter, Machine Learning, Deep Learning, and DevOps. I am always open to collaboration on exciting tech projects that challenge me and drive innovation.
+                Apart from my tech endeavors, I am a cricket enthusiast, balancing my love for the game with my coding pursuits. 
               </motion.p>
               {/* BIOGRAPHY QUOTE */}
               <motion.div 
@@ -65,8 +59,7 @@ Apart from my tech endeavors, I am a cricket enthusiast, balancing my love for t
               transition={{ delay: 0.6 }}
               className="italic"
               >
-
-Fueling innovation through code, I am Jaini Sai Abhiram, a passionate developer on a mission to transform ideas into impactful solutions.
+                Fueling innovation through code, I am Jaini Sai Abhiram, a passionate developer on a mission to transform ideas into impactful solutions.
               </motion.div>
               </div>
             </div>

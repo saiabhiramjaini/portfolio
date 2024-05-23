@@ -59,7 +59,7 @@ const ContactPage = ()=>{
         >
          <div className="h-full flex flex-col lg:flex-row sm:px-8 md:px-12 lg:px-20 xl:px-48">
           {/* TEXT CONTAINER */}
-          <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
+          <div className="h-1/4 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
             <div>
               {text.split("").map((letter, index)=>(
                 <motion.span key={index} 
@@ -75,7 +75,7 @@ const ContactPage = ()=>{
             
           </div>
           {/* FORM CONTAINER */}
-          <form onSubmit={sendEmail} ref={form} action="" className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24">
+          <form onSubmit={sendEmail} ref={form} className="lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24 overflow-auto">
             <span>Dear Abhiram,</span>
             <textarea name="user_message" id="" rows={6} className="bg-transparent border-b-2 border-b-black outline-none resize-none"/>
             <span>My mail address is:</span>

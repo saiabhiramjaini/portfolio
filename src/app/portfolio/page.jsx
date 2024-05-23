@@ -11,7 +11,7 @@ const items = [
     color: "from-red-300 to-blue-300",
     title: "KMEC finder",
     desc: "Students can find their details and attendance-related information simply by searching their names. I used college API to render attendance Information. This website has a regular traffic by college students.\n\n Tech Stack: ReactJS, NodeJS, Express, MongoDB. ",
-    img: "https://github.com/saiabhiramjaini/kmec-finder/blob/main/src/assets/logo.png?raw=true",
+    img: "/kmec_finder.png",
     codeLink: "https://github.com/saiabhiramjaini/kmec-finder",
     demoLink: "https://kmec-finder.vercel.app/"
   },
@@ -23,7 +23,7 @@ const items = [
     Household waste such as plastic, cardboard can be contributed by anyone to meet artisan's requirements.
     Artisans utilise waste to craft innovative, decorative items, which they can then sell in a marketplace.
     Tech Stack: React, Express, Node, Prisma, PostgreSQL, TypeScript.`,
-    img: "https://private-user-images.githubusercontent.com/115941546/292565299-90e077d8-2000-4aae-bb22-ac76273d5e0e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY0NTU2MjksIm5iZiI6MTcxNjQ1NTMyOSwicGF0aCI6Ii8xMTU5NDE1NDYvMjkyNTY1Mjk5LTkwZTA3N2Q4LTIwMDAtNGFhZS1iYjIyLWFjNzYyNzNkNWUwZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyM1QwOTA4NDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mYmU3NGU2N2RiOThjYTJmYzFkMzBkZWYyZWNlNjJiOTUzMTA2NzcwYTU2MzUwYmEyM2M3ODJjZWNiYmZiYzBjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.QZt0Fu-Rsrs8CtegnfoUNOzUTVh47aBjA2PoaPOV1aw",
+    img: "/resculpt.png",
     codeLink: "https://github.com/saiabhiramjaini/ReSculpt",
     demoLink: "https://youtu.be/xX8E7E1Jx2c?si=CNYOh_K6c_tFrCpo"
   },
@@ -32,7 +32,7 @@ const items = [
     color: "from-violet-300 to-purple-300",
     title: "QRify ME",
     desc: "Introducing an innovative event hosting and attending app! With this platform, event hosts can effortlessly manage their events and track attendee's presence within the event location. Whether you're organizing a conference, workshop, or social gathering, the app provides an all-in-one solution for an enhanced event experience. Tech Stack: Flutter, Firebase, Google Maps API",
-    img: "https://private-user-images.githubusercontent.com/115941546/251808427-5a0a350e-7c79-4af3-9115-f43ca0fe8acb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY0NTU4MjgsIm5iZiI6MTcxNjQ1NTUyOCwicGF0aCI6Ii8xMTU5NDE1NDYvMjUxODA4NDI3LTVhMGEzNTBlLTdjNzktNGFmMy05MTE1LWY0M2NhMGZlOGFjYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyM1QwOTEyMDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NDEyZDcxYTlkZmM0ZjBlZmNhNzhjZGNhMGNjYmY5NzZhNThmMDkyODAxZGYwYzI1MGY1ZGZkZTcwZjlhYWUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZIH1_oTfRz7h1Zu9NOQTVJ0HB5KJKVkBBQoJzVWBBk8",
+    img: "/qrify_me.png",
     codeLink: "https://github.com/saiabhiramjaini/QRify_ME",
     demoLink: "https://drive.google.com/file/d/1KrCdgUeWulzSuOojyks1PtK5acpHuumN/view?usp=sharing"
   },
@@ -41,7 +41,7 @@ const items = [
     color: "from-purple-300 to-red-300",
     title: "Multi-Doc Summarization",
     desc: "Llama2 employs an Attention Mechanism to create summaries by extracting text from multiple documents. Additionally, this project features a QnA chatbot tailored specifically for addressing questions related to the documents. Tech Stack: Python, Streamlit, LangChain, LLAMA2",
-    img: "https://llama-2.ai/wp-content/uploads/2023/09/Llama-2-Model-Details.png",
+    img: "/llama2.png",
     codeLink: "https://github.com/saiabhiramjaini/Multiple-Document-summarization-and-chatbot-using-LLAMA2",
     demoLink: "https://github.com/saiabhiramjaini/Multiple-Document-summarization-and-chatbot-using-LLAMA2"
   },
@@ -50,7 +50,7 @@ const items = [
     color: "from-red-300 to-orange-300",
     title: "Image Encryption algorithm",
     desc: "An algorithm using python for image encryption and decryption based on genetic central dogma. TechStack: Python, Streamlit, Numpy, MatplotLib",
-    img: "https://cdn.dribbble.com/users/1950768/screenshots/3979127/data_encryption.gif",
+    img: "/encryption.gif",
     codeLink: "https://github.com/saiabhiramjaini/Image-Encryption-Algorithm-Based-On-Genetic-Central-Dogma",
     demoLink: "https://image-encryption-algorithm-based-on-genetic-central-dogma-ch.streamlit.app/"
   },
@@ -58,7 +58,7 @@ const items = [
 
 const Portfolio = () => {
   const ref = useRef();
-  const { scrollYProgress } = useScroll({ target: ref });
+  const { scrollYProgress } = useScroll({ target: ref , layoutEffect: false});
 
   const x = useTransform(scrollYProgress, [0.2, 1], ["0%", "-100%"]);
 
