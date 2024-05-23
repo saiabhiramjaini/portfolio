@@ -69,6 +69,8 @@ const Portfolio = () => {
     }
   }, []);
 
+  sessionStorage.setItem('hasReloaded', 'false');
+
   const ref = useRef();
   const { scrollYProgress } = useScroll({ target: ref, layoutEffect: false });
 

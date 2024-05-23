@@ -6,10 +6,6 @@ import emailjs from '@emailjs/browser'
 
 const ContactPage = ()=>{
 
-  useEffect(() => {
-    // Reset the reload flag when the page is rendered
-    sessionStorage.setItem('hasReloaded', 'false');
-  }, []);
 
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState(false)
