@@ -6,6 +6,8 @@ import emailjs from '@emailjs/browser'
 
 const ContactPage = ()=>{
 
+  sessionStorage.removeItem('hasReloaded');
+  
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState(false)
 

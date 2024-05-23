@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const AboutPage = () => {
-
+  sessionStorage.removeItem('hasReloaded');
   const bioRef = useRef();
   const isBioRefInView = useInView(bioRef, { margin: "-100px" });
 

@@ -6,6 +6,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 
 const Homepage = () => {
+  sessionStorage.removeItem('hasReloaded');
   const controls = useAnimation();
 
   useEffect(() => {
