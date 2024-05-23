@@ -7,12 +7,8 @@ import { useEffect } from "react";
 
 const Homepage = () => {
   useEffect(() => {
-    // Check if the page has already been reloaded
-    const hasReloaded = sessionStorage.getItem('hasReloaded');
-    if (hasReloaded) {
-      // Set the flag to indicate the page has been reloaded
-      sessionStorage.setItem('hasReloaded', 'false');
-    }
+    // Reset the reload flag when the page is rendered
+    sessionStorage.setItem('hasReloaded', 'false');
   }, []);
 
   const controls = useAnimation();
