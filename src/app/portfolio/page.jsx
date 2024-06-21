@@ -6,17 +6,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 const items = [
+  // {
+  //   id: ,
+  //   color: "from-red-300 to-blue-300",
+  //   title: "KMEC finder",
+  //   desc: "Students can find their details and attendance-related information simply by searching their names. I used college API to render attendance Information. This website has a regular traffic by college students.\n\n Tech Stack: ReactJS, NodeJS, Express, MongoDB. ",
+  //   img: "/kmec_finder.png",
+  //   codeLink: "https://github.com/saiabhiramjaini/kmec-finder",
+  //   demoLink: "https://kmec-finder.vercel.app/"
+  // },
   {
     id: 1,
-    color: "from-red-300 to-blue-300",
-    title: "KMEC finder",
-    desc: "Students can find their details and attendance-related information simply by searching their names. I used college API to render attendance Information. This website has a regular traffic by college students.\n\n Tech Stack: ReactJS, NodeJS, Express, MongoDB. ",
-    img: "/kmec_finder.png",
-    codeLink: "https://github.com/saiabhiramjaini/kmec-finder",
-    demoLink: "https://kmec-finder.vercel.app/"
-  },
-  {
-    id: 2,
     color: "from-blue-300 to-violet-300",
     title: "ReSculpt",
     desc: `Developed a web application where artisans and craftsmen can post their requirements for raw materials.
@@ -28,7 +28,7 @@ const items = [
     demoLink: "https://youtu.be/xX8E7E1Jx2c?si=CNYOh_K6c_tFrCpo"
   },
   {
-    id: 3,
+    id: 2,
     color: "from-violet-300 to-purple-300",
     title: "QRify ME",
     desc: "Introducing an innovative event hosting and attending app! With this platform, event hosts can effortlessly manage their events and track attendee's presence within the event location. Whether you're organizing a conference, workshop, or social gathering, the app provides an all-in-one solution for an enhanced event experience. Tech Stack: Flutter, Firebase, Google Maps API",
@@ -37,7 +37,7 @@ const items = [
     demoLink: "https://drive.google.com/file/d/1KrCdgUeWulzSuOojyks1PtK5acpHuumN/view?usp=sharing"
   },
   {
-    id: 4,
+    id: 3,
     color: "from-purple-300 to-red-300",
     title: "Multi-Doc Summarization",
     desc: "Llama2 employs an Attention Mechanism to create summaries by extracting text from multiple documents. Additionally, this project features a QnA chatbot tailored specifically for addressing questions related to the documents. Tech Stack: Python, Streamlit, LangChain, LLAMA2",
@@ -46,7 +46,7 @@ const items = [
     demoLink: "https://github.com/saiabhiramjaini/Multiple-Document-summarization-and-chatbot-using-LLAMA2"
   },
   {
-    id: 5,
+    id: 4,
     color: "from-red-300 to-orange-300",
     title: "Image Encryption algorithm",
     desc: "An algorithm using python for image encryption and decryption based on genetic central dogma. TechStack: Python, Streamlit, Numpy, MatplotLib",
