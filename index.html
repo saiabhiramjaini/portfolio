@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Jaini Sai Abhiram</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Jaini Sai Abhiram</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile.png" alt="Jaini Sai Abhiram profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Jaini Sai Abhiram</h1>
+      <p class="section__text__p2">Full Stack Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2"
+          onclick="window.open('https://drive.google.com/file/d/1W5krjuTpsZs9ShTWTDXcxpBca2CgNAdu/view?usp=sharing', '_blank')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="window.open('https://www.linkedin.com/in/sai-abhiram-jaini/', '_blank')" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="window.open('https://github.com/saiabhiramjaini', '_blank')" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <br>
+    <div class="section-container">
+      <div class="text-container">
+        <p>
+          Hi 👋, my name is Jaini Sai Abhiram, an aspiring software developer with a passion for
+          turning ideas into reality through code. Currently based in Hyderabad, India, I am deeply
+          immersed in the world of technology, consistently pushing my boundaries to learn and grow.<br>
+          I am pursuing a Bachelor of Engineering in Computer Science at Keshav Memorial Engineering
+          College, affiliated with Osmania University. <br>
+          Beyond academics, I am actively involved in various tech projects and competitions. I was a
+          finalist in the Smart India Hackathon 2023. Additionally, I have attended the Innovation Design and
+          Entrepreneurship
+          (IDE) Bootcamp in 2024, further honing my skills and entrepreneurial spirit. <br>
+          I am proficient in FullStack development and constantly expanding my expertise in technologies such as DevOps,
+          Web3 etc. <br>
+          I am always open to collaboration on exciting tech
+          projects that challenge me and drive innovation. Apart from my tech endeavors, I am a cricket
+          enthusiast, balancing my love for the game with my coding pursuits.
+        </p>
+
+        <br>
+        <br>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Languages</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Java</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>TypeScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git & Github</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Docker</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>AWS</h3>
+                <p>Basics</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>ReactJS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>NodeJS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>ExpressJS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Prisma</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>NextJS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MySQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <br><br>
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Full Stack Developer Remote Intern (Part time)</h2>
+          <p>
+            Developed the frontend for a web application named ”Social Compass” that manages businesses on social media
+            platforms. The UI includes various business-related analytics that help users manage their businesses
+            online.
+            <br>
+            Utilized ReactJS and TailwindCSS for the user interface and Redux for state management.
+          </p>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">SMART INDIA HACKATHON - 2023 (Finalists)</h2>
+          <p>
+            Achieved finalist status in the SIH-2023 (36 Hour Hackathon) conducted by the Government of India by
+            building a waste upcycling project using the Flutter and Firebase.
+          </p>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="projects-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">ReSculpt</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/saiabhiramjaini/ReSculpt'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://resculpt.abhiramverse.tech/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">PhisX</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/saiabhiramjaini/PhisX-Chrome-Extension'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://chromewebstore.google.com/detail/phisx/jnbmnebokpebcplhgcmgleinlmmplfal'">
+              Download
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">QrifyME</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/saiabhiramjaini/QRify_ME'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1KrCdgUeWulzSuOojyks1PtK5acpHuumN/view'">
+              Get APK
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-4.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Doc Summarization</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/saiabhiramjaini/Multiple-Document-summarization-and-chatbot-using-LLAMA2'">
+              Github
+            </button>
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-5.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Image Encryption</h2>
+          
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/saiabhiramjaini/Image-Encryption-Algorithm-Based-On-Genetic-Central-Dogma'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://image-encryption-algorithm-based-on-genetic-central-dogma-ch.streamlit.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:abhiramjaini28@gmail.com">abhiramjaini28@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/sai-abhiram-jaini/" >LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Jaini Sai Abhiram. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
